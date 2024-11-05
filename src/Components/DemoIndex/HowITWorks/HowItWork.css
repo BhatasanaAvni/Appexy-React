@@ -1,0 +1,38 @@
+.bg-primary-soft {
+    background-color: rgba(31, 97, 235, 0.15) !important;
+  }
+  
+  .bg-success-soft {
+    background-color: rgba(28, 225, 172, 0.15) !important;
+  }
+  
+  .bg-warning-soft {
+    background-color: rgba(255, 194, 18, 0.15) !important;
+  }
+  .work-box {
+    position: relative;
+    
+    .work-icon {
+        font-size: 56px;
+        border-radius: 28% 72% 50% 50% / 26% 20% 80% 74%;
+        height: 96px;
+        width: 96px;
+        margin: 0 auto;
+    }
+
+    .work-arrow {
+        position: absolute;
+        right: -56px;
+        top: 45%;
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    .work-box {
+        .work-arrow {
+            display: none;
+        }
+    }
+}

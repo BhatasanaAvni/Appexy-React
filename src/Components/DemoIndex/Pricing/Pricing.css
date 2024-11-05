@@ -1,0 +1,58 @@
+
+.nav.pricing-tab {
+    justify-content: center;
+    display: table;
+    margin: 0 auto;
+    background-color: #e2e8f0; 
+    border: 1px solid #d1d5db;
+    padding: 6px;
+    border-radius: 50rem;
+}
+
+.nav.pricing-tab .nav-item {
+    display: inline-block;
+}
+
+.nav.pricing-tab .nav-item .nav-link {
+    border-radius: 50rem;
+    color: #4b5563; 
+    padding: 0.5rem 1.5rem;
+}
+
+.nav.pricing-tab .nav-item .nav-link.active {
+    background-color: #3b82f6; 
+    color: #ffffff;
+}
+
+.pricing-box {
+    background-color: #ffffff; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+    border-radius: 4px;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing-box .pricing-badge {
+    background-color: #dc2626; 
+    color: #ffffff; 
+    font-size: 13px;
+    padding: 2px 40px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40px;
+    right: -40px;
+    transform: rotate(45deg);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); 
+}
+.mont-year{
+    font-size: 16px;
+    color: #4b5563; 
+    text-align: end;
+    padding: 10px 0 0 0;
+}.btn.btn-gradient-primary {
+    background: linear-gradient(to right, #1f61eb 0%, #94b4f5 100%);
+    border: none;
+    color: #fff;
+    box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
+}

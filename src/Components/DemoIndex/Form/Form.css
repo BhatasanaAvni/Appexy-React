@@ -1,0 +1,42 @@
+.btn.btn-gradient-danger {
+  background: linear-gradient(to right, #eb1f52 0%, #f594ac 100%);
+  border: none;
+  color: #fff;
+  box-shadow: 0 5px 20px rgba(52, 58, 64, 0.1);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn.btn-gradient-danger i{
+    font-size: inherit;
+}
+.btn.btn-gradient-danger:hover {
+  background: linear-gradient(to right, #d31a4c 0%, #f08c9d 100%);
+  color: white;
+}
+h5{
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #536976 !important;
+}
+.no-underline {
+  text-decoration: none;
+}
+.text{
+  display: flex !important;
+  align-items: center !important;
+}
+@media (max-width: 756px) {
+  .fmomSmall {
+    padding: 0 50px !important;
+  }
+}
+@media (max-width: 786px) {
+  .custom-margin {
+    margin-left: 50px; 
+  }
+}

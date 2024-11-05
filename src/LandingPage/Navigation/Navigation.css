@@ -1,0 +1,44 @@
+.custom-nav-link {
+    color: #343a40 !important;
+    font-size: 16px;
+    padding: 14px 0;
+    margin: 0 18px;
+    font-weight: 500;
+    font-family: "Mandali", sans-serif;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+    position: relative;
+  }
+  .custom-nav-link.active {
+    border-bottom: 2px solid #1f61eb;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .custom-nav-link.active {
+    color: #1f61eb !important;
+  }
+  
+  .nav-btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-nav-btn {
+    background-color: rgba(31, 97, 235, 0.15) !important;
+    border-color: rgba(31, 97, 235, 0.2) !important;
+    color: #1f61eb !important;
+  }
+  
+  .custom-nav-btn:focus {
+    box-shadow: none !important;
+    background-color: #1f61eb !important;
+    color: #fff !important;
+  }
+  
+  .custom-nav-btn:hover {
+    background-color: #1f61eb !important;
+    color: #fff !important;
+  }
+  .navbar-custom{
+    display: flex;
+    justify-content: space-between;
+  }
+ 

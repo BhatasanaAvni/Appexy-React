@@ -1,0 +1,28 @@
+.features-bg {
+  background-image: url("../../../assets/Image/features-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem; 
+  width: 6rem; 
+  border-radius: 50%; 
+  box-shadow: 0px 5px 14px rgba(31, 97, 235, 0.08); 
+  background-color: #fff; 
+}
+
+.avatar-lg {
+  height: 6rem; 
+  width: 6rem; 
+}
+.text-muted {
+--bs-text-opacity: 1;
+color: var(--bs-secondary-color) !important;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 5px;}

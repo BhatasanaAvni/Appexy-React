@@ -1,0 +1,36 @@
+/* src/Components/Demo/Demo.css */
+
+.demo-box {
+    padding: 0px 0 30px 0;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .demo-box:hover {
+    transform: translateY(-0.6rem);
+  }
+  
+  .demo-box a {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 8px solid #ffffff;
+    display: block;
+    transition: all 400ms ease-in-out;
+    box-shadow: 0 5px 20px rgba(52, 58, 64, 0.2);
+  }
+  
+  .demo-box img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    padding: 0px 0 30px 0; /* Padding for the image */
+  }
+  
+  .demo-box h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
