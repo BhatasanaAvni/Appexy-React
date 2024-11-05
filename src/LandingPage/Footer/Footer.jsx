@@ -35,14 +35,14 @@ const Footer = () => {
               <Col sm={6}>
                 <p className="mb-0 fs-14 copyright text-dark">
                   &copy; 2024 Appexy. Design &amp; Develop by
-                  Coderthemes
+                  ..
                 </p>
               </Col>
               <Col sm={6}>
                 <ul className="list-inline footer-social-one mb-0 float-end">
                   <li className="list-inline-item">
                     <a
-                      href="https://www.facebook.com/coderthemes"
+                      href="https://www.facebook.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-link"
@@ -52,7 +52,7 @@ const Footer = () => {
                   </li>
                   <li className="list-inline-item">
                     <a
-                      href="https://twitter.com/coder_themes"
+                      href="https://x.com/?lang=en"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-link"
@@ -62,7 +62,7 @@ const Footer = () => {
                   </li>
                   <li className="list-inline-item">
                     <a
-                      href="https://www.linkedin.com/in/coderthemes/"
+                      href="https://www.linkedin.com/in"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="social-link"

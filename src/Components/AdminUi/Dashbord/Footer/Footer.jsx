@@ -35,8 +35,8 @@ const Footer= () => {
           </Col>
           <Col md="auto" className="text-md-end mt-2 mt-md-0">
             <p className=" mb-0" style={{ fontSize: '14px' }}>
-            2024 &copy; Appexy. All rights reserved. Crafted by{" "}
-              <a href="https://coderthemes.com/" style={{fontSize:"16px"}}>Coderthemes</a>
+            &copy; 2024 Appexy. Design &amp; Develop by
+            ..
             </p>
           </Col>
         </Row>

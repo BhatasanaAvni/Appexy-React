@@ -27,7 +27,8 @@ function Footer() {
             </ul>
           </Col>
           <Col md="auto" className="text-md-end mt-2 mt-md-0">
-            <p className="fs-14 mb-0">{currentYear} © Appexy. All rights reserved. Crafted by <a href="https://coderthemes.com/">Coderthemes</a></p>
+            <p className="fs-14 mb-0">   &copy; 2024 Appexy. Design &amp; Develop by
+            ..</p>
           </Col>
         </Row>
       </Container>

@@ -197,10 +197,8 @@ const Footer = () => {
           <div className="row justify-content-between py-2">
             <div className="col-md-6">
               <p className="text-white opacity-75 mb-0 fs-14">
-                2024 &copy; Appexy-
-                <a href="https://coderthemes.com/" className="text-white">
-                  Coderthemes.com
-                </a>
+              &copy; 2024 Appexy. Design &amp; Develop by
+              ..
               </p>
             </div>
             <div className="col-md-6 text-md-end">
